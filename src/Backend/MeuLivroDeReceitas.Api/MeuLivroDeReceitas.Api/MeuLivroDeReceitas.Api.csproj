@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\MeuLivroDeReceitas.Comunicacao\MeuLivroDeReceitas.Comunicacao.csproj" />
+    <ProjectReference Include="..\..\..\Shared\MeuLivroDeReceitas.Exception\MeuLivroDeReceitas.Exception.csproj" />
+    <ProjectReference Include="..\..\MeuLivroDeReceitas.Application\MeuLivroDeReceitas.Application.csproj" />
+    <ProjectReference Include="..\..\MeuLivroDeReceitas.Infrastructure\MeuLivroDeReceitas.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
