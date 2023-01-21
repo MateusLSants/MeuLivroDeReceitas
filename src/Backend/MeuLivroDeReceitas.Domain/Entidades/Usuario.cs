@@ -1,5 +1,8 @@
-﻿namespace MeuLivroDeReceitas.Domain.Entidades;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
+namespace MeuLivroDeReceitas.Domain.Entidades;
+
+[Table("Usuario")]
 public class Usuario : EntidadeBase
 {
     public String Nome { get; set; }

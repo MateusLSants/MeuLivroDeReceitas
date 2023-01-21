@@ -10,7 +10,7 @@ public class UsuarioRepositorio : IUsuarioWriteOnlyRepositorio, IUsuarioReadOnly
 
     public UsuarioRepositorio(MeuLivroDeReceitasContext contexto)
     {
-        _contexto= contexto;
+        _contexto = contexto;
     }
 
     public async Task Adicionar(Usuario usuario)
