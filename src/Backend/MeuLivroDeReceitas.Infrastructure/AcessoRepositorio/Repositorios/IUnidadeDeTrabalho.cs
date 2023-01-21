@@ -1,6 +1,6 @@
 ﻿namespace MeuLivroDeReceitas.Infrastructure.AcessoRepositorio.Repositorios;
 
-internal interface IUnidadeDeTrabalho
+public interface IUnidadeDeTrabalho
 {
     Task Commit();
 }
